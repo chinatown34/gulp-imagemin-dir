@@ -46,7 +46,7 @@ gulp.task('test', function() {
         .pipe(imagemin({
             progressive: true
         }))
-        .pipe(gulp.dest('../porno_images/195/big-domashnee-porno-parnyu-prishlos-smotret-na-izmenu-russkoy-telki.jpg'));
+        .pipe(gulp.dest('../porno_images/195/*'));
 });
 
 
