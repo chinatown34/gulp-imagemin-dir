@@ -16,4 +16,16 @@ gulp.task('compress', function() {
             progressive: true
         }))
         .pipe(gulp.dest('../porno_images/'));
+
+    gulp.src('../porno_images/**/*')
+        .pipe(imagemin({
+            progressive: true
+        }))
+        .pipe(gulp.dest('../porno_images/'));
+
+    gulp.src('../porno_images/*')
+        .pipe(imagemin({
+            progressive: true
+        }))
+        .pipe(gulp.dest('../porno_images/'));
 });
