@@ -4,5 +4,6 @@
   "devDependencies": {
     "gulp": "*",
     "gulp-imagemin": "*"
+    "gulp-image-optimization":"*"
   }
 }
