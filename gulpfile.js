@@ -29,3 +29,24 @@ gulp.task('compress', function() {
         }))
         .pipe(gulp.dest('../porno_images/'));
 });
+
+// Compress Task big
+gulp.task('compressbig', function() {
+
+    gulp.src('../porno_images/**/big*')
+        .pipe(imagemin({
+            progressive: true
+        }))
+        .pipe(gulp.dest('../porno_images/'));
+});
+
+gulp.task('test', function() {
+
+    gulp.src('../porno_images/195/big-domashnee-porno-parnyu-prishlos-smotret-na-izmenu-russkoy-telki.jpg')
+        .pipe(imagemin({
+            progressive: true
+        }))
+        .pipe(gulp.dest('../porno_images/195/big-domashnee-porno-parnyu-prishlos-smotret-na-izmenu-russkoy-telki.jpg'));
+});
+
+
