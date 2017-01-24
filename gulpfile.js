@@ -12,7 +12,7 @@ gulp.task('watch', function() {
 
 // Отличный компресс
 gulp.task('images', function(cb) {
-    gulp.src(['../porno_images/**/*', '../porno_images/*','../porno_images/***/**/*']).pipe(imageop({
+    gulp.src(['../porno_images/**/*']).pipe(imageop({
         optimizationLevel: 5,
         progressive: true,
         interlaced: true
