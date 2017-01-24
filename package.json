@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "devDependencies": {
     "gulp": "*",
-    "gulp-imagemin": "*"
+    "gulp-imagemin": "*",
     "gulp-image-optimization":"*"
   }
 }
